@@ -1,0 +1,34 @@
+{
+  "name": "json-validator-filter",
+  "version": "1.0.0",
+  "description": "Extend jsonschema module with json schema filter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lhtrieu87/json-validator-filter.git"
+  },
+  "keywords": [
+    "json",
+    "schema",
+    "validator",
+    "filter"
+  ],
+  "author": "Le Hong Trieu <lhtrieu87@gmail.com> (https://github.com/lhtrieu87)",
+  "license": "Apache License Version 2.0",
+  "bugs": {
+    "url": "https://github.com/lhtrieu87/json-validator-filter/issues"
+  },
+  "homepage": "https://github.com/lhtrieu87/json-validator-filter",
+  "dependencies": {
+    "jsonschema": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "grunt": "^0.4.5",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.1.0"
+  }
+}
